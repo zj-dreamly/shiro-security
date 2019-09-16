@@ -1,6 +1,6 @@
-package com.wang.service.impl;
+package com.github.zj.dreamly.service.impl;
 
-import com.wang.service.IBaseService;
+import com.github.zj.dreamly.service.IBaseService;
 import org.apache.ibatis.session.RowBounds;
 import org.springframework.beans.factory.annotation.Autowired;
 import tk.mybatis.mapper.common.Mapper;
@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  *
- * @author Wang926454
+ * @author 苍海之南
  * @date 2018/8/9 15:45
  */
 public abstract class BaseServiceImpl<T> implements IBaseService<T> {
